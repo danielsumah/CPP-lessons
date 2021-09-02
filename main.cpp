@@ -9,5 +9,6 @@ int main()
 
     cout << "Hello world!" << endl;
     cout << "My name is " << name << " and i am " << age << " years old" << endl;
+    cout << "Thank you" << endl;
     return 0;
 }
