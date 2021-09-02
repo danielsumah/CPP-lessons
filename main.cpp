@@ -4,13 +4,15 @@ using namespace std;
 
 int main()
 {
-    // collecting char and int using "cin"
+    // simple addition calculator
+    double num1, num2, result;
+    cout << "Enter your first no. : ";
+    cin >> num1;
+    cout<< "Enter your second no. : ";
+    cin >> num2;
 
-    //collecting strings with "get line"
-    string watchword;
-    cout << "enter your watchword : ";
-    getline(cin, watchword);
-    cout << "your watchword is " << watchword ;
+    result = num1 + num2;
+    cout << "Result is " << result;
 
     return 0;
 }
