@@ -4,11 +4,21 @@ using namespace std;
 
 int main()
 {
-    string name = "Daniel";
-    int age = 12;
+    // representing single charaters
+    char grade = 'f';
 
-    cout << "Hello world!" << endl;
-    cout << "My name is " << name << " and i am " << age << " years old" << endl;
-    cout << "Thank you" << endl;
+    // rep more than 1 charater
+    string sentence = "How are you?";
+
+    //rep whole numbers
+    int age = 50;
+
+    // rep decimal plates
+    float gpa = 2.22;
+    // doubles are more specific than floats
+    double gpa = 2.34;
+    bool isMale = false;
+
+
     return 0;
 }
