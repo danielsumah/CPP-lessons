@@ -4,21 +4,27 @@ using namespace std;
 
 int main()
 {
-    // representing single charaters
-    char grade = 'f';
+    // working with strings
 
-    // rep more than 1 charater
-    string sentence = "How are you?";
+    //end a line with "endl"
+    cout << "Hello world" << endl;
 
-    //rep whole numbers
-    int age = 50;
+    // you can also use escape sequence for a new line
+    cout << "Hello world\n";
 
-    // rep decimal plates
-    float gpa = 2.22;
-    // doubles are more specific than floats
-    double gpa = 2.34;
-    bool isMale = false;
+    //count the number of a char in a string with the length method
+    string sent = "Welcome to first bank";
+    cout << sent.length() << endl;
 
+    //string indexing
+    cout << sent[4] << endl;
+
+    // finding substrings and characters in a string
+    cout << sent.find("come", 0) << endl;
+
+    // grabbing substrings
+    // you specify the "(starting position, no of sting)"
+    cout << sent.substr(5, 4) << endl;
 
     return 0;
 }
