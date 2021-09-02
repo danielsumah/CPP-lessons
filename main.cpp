@@ -4,11 +4,13 @@ using namespace std;
 
 int main()
 {
-    string name = "Daniel";
-    int age = 12;
+    // collecting char and int using "cin"
 
-    cout << "Hello world!" << endl;
-    cout << "My name is " << name << " and i am " << age << " years old" << endl;
-    cout << "Thank you" << endl;
+    //collecting strings with "get line"
+    string watchword;
+    cout << "enter your watchword : ";
+    getline(cin, watchword);
+    cout << "your watchword is " << watchword ;
+
     return 0;
 }
