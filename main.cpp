@@ -1,30 +1,41 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main()
 {
-    // working with strings
+    // working with numbers
 
-    //end a line with "endl"
-    cout << "Hello world" << endl;
+    // whole numbers are int while decimal numbers are floats and doubles
+    cout << 5 + 11 << endl;
+    cout << 5 - 11 << endl;
+    cout << 5 * 11 << endl;
+    cout << 5 / 11 << endl;
+    cout << 5 / 11.0 << endl;
+    cout << 23 % 11 << endl;
 
-    // you can also use escape sequence for a new line
-    cout << "Hello world\n";
+    // basic math functions
+    // exponential
+    cout << pow(2,5) << endl;
 
-    //count the number of a char in a string with the length method
-    string sent = "Welcome to first bank";
-    cout << sent.length() << endl;
+    //square roots
+    cout << sqrt(36) << endl;
 
-    //string indexing
-    cout << sent[4] << endl;
+    // rounding numbers up or down
+    cout << round(4.6) << endl;
 
-    // finding substrings and characters in a string
-    cout << sent.find("come", 0) << endl;
+    //rounding numbers up only
+    cout << ceil(4.1) << endl;
 
-    // grabbing substrings
-    // you specify the "(starting position, no of sting)"
-    cout << sent.substr(5, 4) << endl;
+    //rounding numbers down only
+    cout << floor(4.9) << endl;
+
+    // determining the bigger number
+    cout << fmax(3,10) << endl;
+
+    // determining the smaller number
+    cout << fmin(3,10) << endl;
 
     return 0;
 }
