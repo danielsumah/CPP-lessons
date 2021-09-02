@@ -4,15 +4,20 @@ using namespace std;
 
 int main()
 {
-    // simple addition calculator
-    double num1, num2, result;
-    cout << "Enter your first no. : ";
-    cin >> num1;
-    cout<< "Enter your second no. : ";
-    cin >> num2;
+    // arrays
 
-    result = num1 + num2;
-    cout << "Result is " << result;
+    int numbers[] = {5,2,7,4,5,2};
+    cout << numbers[1] << endl;
+
+    //modifying numbers in an array
+    numbers[2] = 20;
+    cout << numbers[2] << endl;
+
+    // you can tell how much elements goes into the array
+    int numbers2[5];
+    numbers2[0] = 4;
+    cout << numbers2[0];
+
 
     return 0;
 }
