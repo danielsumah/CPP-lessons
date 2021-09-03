@@ -5,11 +5,13 @@ using namespace std;
 
 int main()
 {
-    int num = 1;
+    //do while loops helps run a block of code b4 checking the condition
 
-    while(num <=10){
+    int num = 4;
+
+    do{
         cout << num << endl;
-        num++;
-    }
+        num ++;
+    }while(num > 5);
     return 0;
 }
