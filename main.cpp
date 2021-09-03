@@ -5,13 +5,9 @@ using namespace std;
 
 int main()
 {
-    //do while loops helps run a block of code b4 checking the condition
+    int num[] = {1,4,6,2,3,6};
+    for(int i = 0; i < 6; i++){
+        cout << num[i] << endl;
 
-    int num = 4;
-
-    do{
-        cout << num << endl;
-        num ++;
-    }while(num > 5);
-    return 0;
+    }
 }
