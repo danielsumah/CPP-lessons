@@ -5,9 +5,23 @@ using namespace std;
 
 int main()
 {
-    int num[] = {1,4,6,2,3,6};
-    for(int i = 0; i < 6; i++){
-        cout << num[i] << endl;
+    int rightNumber, userNumber, limit, trial;
+    rightNumber = 8;
+    trial = 0;
+    limit = 3;
 
+    while(trial != limit){
+        trial++;
+        if(rightNumber!=userNumber){
+            cout << "Enter your guess : ";
+            cin >> userNumber;
+
+        }else{
+            cout << "You guessed Right ";
+            return 0;
+        }
     }
+    cout << "You have exhausted your guess limit";
+
+
 }
